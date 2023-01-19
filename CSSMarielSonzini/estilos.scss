@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
 
+$color1: #efb5b3;
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +28,6 @@ main {
 }
 .nav .links li {
     display: inline-block;
-    float: right;
     margin-inline: 20px;
     font-family: 'Oswald', sans-serif;
 }
@@ -35,11 +36,13 @@ main {
     color: white;
     text-transform: uppercase;
 }
+
+
 .footer {
-    height: 80px;
-    background-color: #efb5b3;
-    padding-top: 20px;
-}
+        height: 80px;
+        background-color: red;
+        padding-top: 20px;
+        }
 
 section img {
     width: 600px;
@@ -58,7 +61,7 @@ h1 a{
 }
 
 .section_text {
-    color: #efb5b3;
+    color: $color1;
     text-align: center;
     padding-left: 500px;
     padding-right: 500px;
@@ -66,7 +69,7 @@ h1 a{
 }
 
 .Testimonios{
-    color: #efb5b3;
+    color: $color1;
     text-align: center;
 }
 
@@ -109,7 +112,7 @@ h1 a{
     padding-top: 630px;
     font-size: 30px;
     text-align: center;
-    color: #efb5b3;
+    color: $color1;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -144,8 +147,37 @@ h1 a{
     background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.14\ \(1\).jpeg);
 }
 
+.item10 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item11 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item12 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item13 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item14 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item15 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+  .item16 {
+    background-image: url(../Productos/calendario.jpeg);
+  }
+  
+
 .texto-conocenuestrosproductos{
-    color: #efb5b3;
+    color: $color1;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     padding-top: 40px;
@@ -182,7 +214,7 @@ h1 a{
 
 
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -211,16 +243,33 @@ h2 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+
+$fondo: servicios;
+
 h3{
+    @if fondo == comida {
     height: auto;
     display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 630px;
-    font-size: 30px;
+    grid-template-columns: 2fr;
+    padding-top: 600px;
+    font-size: 20px;
     text-align: center;
-    color: #efb5b3;
+    color: pink;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+    }
+    
+    @else if fondo == servicios {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 630px;
+        font-size: 30px;
+        text-align: center;
+        color: $color1;
+        text-align: center;
+        font-family: 'Oswald', sans-serif; 
+        }
 }
 
 
@@ -233,3 +282,6 @@ h3{
 .item9 {
     background-image: url(../servicios/servicio3.png);
 }
+
+@import "estilos2.scss";
+@import "estilos3.scss"

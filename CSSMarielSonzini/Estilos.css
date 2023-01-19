@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2? family= Oswald & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+  background-color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.links {
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.nav .links li {
+  display: inline-block;
+  margin-inline: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav .links li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 80px;
+  background-color: red;
+  padding-top: 20px;
+}
+
+section img {
+  width: 600px;
+  padding: 20px;
+  display: inline-block;
+  margin-block: 20px;
+}
+
+h1 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.section1 {
+  width: 20px;
+}
+
+.section_text {
+  color: #efb5b3;
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  font-family: "Oswald", sans-serif;
+}
+
+.Testimonios {
+  color: #efb5b3;
+  text-align: center;
+}
+
+.testimonios_cards {
+  width: 600px;
+  display: inline-block;
+  margin-block: 20px;
+  text-align: center;
+}
+
+.testimonios_cards p {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.testimonios_cards img {
+  width: 300px;
+  border-radius: 500px;
+}
+
+.footer_socials {
+  font-size: 40px;
+  float: right;
+}
+
+.galeria {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 110px 20px;
+  padding-top: 50px;
+}
+
+.galeria p {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 630px;
+  font-size: 30px;
+  text-align: center;
+  color: #efb5b3;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.item {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
+}
+
+.item :hover {
+  color: rgb(164, 117, 190);
+  font-size: 45px;
+  padding-top: 620px;
+}
+
+.item1 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.10.jpeg);
+}
+
+.item2 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.11.jpeg);
+}
+
+.item3 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.12.jpeg);
+}
+
+.item4 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.12\ \(1\).jpeg);
+}
+
+.item5 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.13.jpeg);
+}
+
+.item6 {
+  background-image: url(../productos2/WhatsApp\ Image\ 2022-12-26\ at\ 15.04.14\ \(1\).jpeg);
+}
+
+.item10 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item11 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item12 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item13 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item14 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item15 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.item16 {
+  background-image: url(../Productos/calendario.jpeg);
+}
+
+.texto-conocenuestrosproductos {
+  color: #efb5b3;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 40px;
+}
+
+.Invitacion {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.invitacion_socials {
+  color: black;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 30px;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.invitacion_socials p {
+  color: black;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.servicios-galeria {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 180px 20px;
+  padding-top: 50px;
+}
+
+.servicios-galeria p {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.item7 {
+  background-image: url(../servicios/servicio1.png);
+}
+
+.item8 {
+  background-image: url(../servicios/servicio2.png);
+}
+
+.item9 {
+  background-image: url(../servicios/servicio3.png);
+}
+
+@media only screen and (max-width: 1100px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .texto-conocenuestrosproductos {
+    font-size: 16px;
+  }
+  .header {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+  }
+  .texto-conocenuestrosproductos {
+    font-size: 13px;
+  }
+  .header {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+  .texto-conocenuestrosproductos {
+    font-size: 10px;
+  }
+  .header {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .servicios-galeria {
+    grid-template-columns: 1fr;
+  }
+  .texto-conocenuestrosservicios {
+    font-size: 16px;
+  }
+  .servicios-galeria p {
+    font-size: 20px;
+  }
+  .header {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .servicios-galeria {
+    grid-template-columns: 1fr;
+  }
+  .servicios-galeria p {
+    font-size: 13px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .texto-conocenuestrosservicios {
+    font-size: 13px;
+  }
+  .header {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .servicios-galeria {
+    grid-template-columns: 1fr;
+  }
+  .texto-conocenuestrosservicios {
+    font-size: 10px;
+  }
+  .servicios-galeria p {
+    font-size: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .header {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
